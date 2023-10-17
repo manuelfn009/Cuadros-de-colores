@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+
+.principal{
+    width: 100vw;
+    height: 800px;
+    margin-left: 350px;
+    display: grid;
+    place-items: center;
+    background-color: black;
+    border:none;
+    transition: background-color 1s;
+}
+
+div{
+
+    width: 10px;
+    height: 10px;
+    background-color: rgb(66, 66, 66);
+    border: 0.5px solid white;
+    border-radius: 2px;
+    color: aliceblue;
+}
+
+.fila {
+    display: flex;
+    width: 100vw;
+    background: none;
+    border: none;
+    
+}
+
+.celda {
+    border: 1px solid black;
+    width: 15px;
+    transition: background-color 1s;
+    height: 15px;
+}
+
